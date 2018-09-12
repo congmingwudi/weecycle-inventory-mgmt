@@ -27,7 +27,9 @@ In /force-app/main/default/workflows/Gear_Order__c.workflow-meta.xml, replace al
 
 Run "3.push-code.sh" to push the app code to the scratch org, import sample data, and open the scratch org. 
 
-In Setup, clone the process builder flow "Gear Order Submitted" and in the action "Update Order", update the "Owner ID" to your user for this scratch org. Select the user named "User User". The flow embeds the user record ID here, so this needs to be changed for each new scratch org. Active the updated flow.
+In Setup, clone the process builder flow "Gear Order Submitted" and in the action "Update Order", update the "Owner ID" to your user for this scratch org. This will already read "User User", but you need to clear this field and re-select "User User" for you the correct user id to be picked up. The flow embeds the user record ID here, so this needs to be changed for each new scratch org. Active the updated flow.
+
+Also, clone and update the process builder flow "Gear Order Submitted Event". In the "Task (Schedule)" action, update the "Assigned to ID" to your scratch org user.
 
 Similar updates need to be made for the task creation actions in the process builder flows: "Gear Order Scheduled", "Gear Order Confirmed", and "Gear Order Fulfilled". Update the "Assigned To ID" to "User User". 
 
