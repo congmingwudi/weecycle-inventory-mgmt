@@ -1,0 +1,215 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Donation_Location__c",
+                "referenceId": "Donation_Location__cRef1"
+            },
+            "Name": "Park Hill",
+            "City__c": "Denver",
+            "State__c": "CO",
+            "Street_Address__c": "3036 Cherry St",
+            "Zip_Code__c": "80207"
+        },
+        {
+            "attributes": {
+                "type": "Donation_Location__c",
+                "referenceId": "Donation_Location__cRef2"
+            },
+            "Name": "Arvada",
+            "City__c": "Arvada",
+            "Donation_Location_Details__c": "Please place items by the bottom front door to the right of the garage.",
+            "State__c": "CO",
+            "Street_Address__c": "8279 W 69th Way",
+            "Zip_Code__c": "80004"
+        },
+        {
+            "attributes": {
+                "type": "Donation_Location__c",
+                "referenceId": "Donation_Location__cRef3"
+            },
+            "Name": "Hilltop/Jayme's",
+            "City__c": "Denver",
+            "State__c": "CO",
+            "Street_Address__c": "5235 East 1st Ave",
+            "Zip_Code__c": "80220"
+        },
+        {
+            "attributes": {
+                "type": "Donation_Location__c",
+                "referenceId": "Donation_Location__cRef4"
+            },
+            "Name": "Lakewood - Timbuk Toys",
+            "City__c": "Lakewood",
+            "State__c": "CO",
+            "Street_Address__c": "7830 West Alameda Ave",
+            "Zip_Code__c": "80226"
+        },
+        {
+            "attributes": {
+                "type": "Donation_Location__c",
+                "referenceId": "Donation_Location__cRef5"
+            },
+            "Name": "Golden/Ursula",
+            "City__c": "Golden",
+            "State__c": "CO",
+            "Street_Address__c": "1445 Jesse Ln",
+            "Zip_Code__c": "80403"
+        },
+        {
+            "attributes": {
+                "type": "Donation_Location__c",
+                "referenceId": "Donation_Location__cRef6"
+            },
+            "Name": "Lowry - Timbuk Toys",
+            "City__c": "Denver",
+            "State__c": "CO",
+            "Street_Address__c": "200 South Quebec St",
+            "Zip_Code__c": "80230"
+        },
+        {
+            "attributes": {
+                "type": "Donation_Location__c",
+                "referenceId": "Donation_Location__cRef7"
+            },
+            "Name": "Cherry Creek - Nest Denver",
+            "City__c": "Denver",
+            "State__c": "CO",
+            "Street_Address__c": "2940 East 6th Ave",
+            "Zip_Code__c": "80206"
+        },
+        {
+            "attributes": {
+                "type": "Donation_Location__c",
+                "referenceId": "Donation_Location__cRef8"
+            },
+            "Name": "Commerce City",
+            "City__c": "Commerce City",
+            "State__c": "CO",
+            "Street_Address__c": "10635 Kalispell St",
+            "Zip_Code__c": "80022"
+        },
+        {
+            "attributes": {
+                "type": "Donation_Location__c",
+                "referenceId": "Donation_Location__cRef9"
+            },
+            "Name": "Boulder - The Birth Center of Boulder",
+            "City__c": "Boulder",
+            "Donation_Location_Details__c": "Mondays-Thursdays from 9am-5pm.",
+            "State__c": "CO",
+            "Street_Address__c": "2800 Folsom St",
+            "Zip_Code__c": "80304"
+        },
+        {
+            "attributes": {
+                "type": "Donation_Location__c",
+                "referenceId": "Donation_Location__cRef10"
+            },
+            "Name": "Five Points - Craftsman & Apprentice",
+            "City__c": "Denver",
+            "Donation_Location_Details__c": "Fridays and Saturdays 11am-5pm",
+            "State__c": "CO",
+            "Street_Address__c": "1325 E 22nd Ave",
+            "Zip_Code__c": "80205"
+        },
+        {
+            "attributes": {
+                "type": "Donation_Location__c",
+                "referenceId": "Donation_Location__cRef11"
+            },
+            "Name": "Centennial/SouthGlenn/Juli",
+            "City__c": "Centennial",
+            "State__c": "CO",
+            "Street_Address__c": "3287 East Fremont Dr",
+            "Zip_Code__c": "80122"
+        },
+        {
+            "attributes": {
+                "type": "Donation_Location__c",
+                "referenceId": "Donation_Location__cRef12"
+            },
+            "Name": "Highlands",
+            "City__c": "Denver",
+            "State__c": "CO",
+            "Street_Address__c": "2138 Grove St",
+            "Zip_Code__c": "80211"
+        },
+        {
+            "attributes": {
+                "type": "Donation_Location__c",
+                "referenceId": "Donation_Location__cRef13"
+            },
+            "Name": "University Hills - Timbuk Toys",
+            "City__c": "Denver",
+            "State__c": "CO",
+            "Street_Address__c": "2526 South Colorado Blvd",
+            "Zip_Code__c": "80222"
+        },
+        {
+            "attributes": {
+                "type": "Donation_Location__c",
+                "referenceId": "Donation_Location__cRef14"
+            },
+            "Name": "Stapleton",
+            "City__c": "Denver",
+            "Donation_Location_Details__c": "2 Blocks East of Havana",
+            "State__c": "CO",
+            "Street_Address__c": "10807 East 26th Ave",
+            "Zip_Code__c": "80238"
+        },
+        {
+            "attributes": {
+                "type": "Donation_Location__c",
+                "referenceId": "Donation_Location__cRef15"
+            },
+            "Name": "South Denver/Denver Tech Center",
+            "City__c": "Englewood",
+            "State__c": "CO",
+            "Street_Address__c": "10207 East Lake Dr",
+            "Zip_Code__c": "80111"
+        },
+        {
+            "attributes": {
+                "type": "Donation_Location__c",
+                "referenceId": "Donation_Location__cRef16"
+            },
+            "Name": "Highlands Ranch - Timbuk Toys",
+            "City__c": "Highlands Ranch",
+            "State__c": "CO",
+            "Street_Address__c": "9315 Dorchester St",
+            "Zip_Code__c": "80129"
+        },
+        {
+            "attributes": {
+                "type": "Donation_Location__c",
+                "referenceId": "Donation_Location__cRef17"
+            },
+            "Name": "WeeCycle Warehouse",
+            "City__c": "Aurora",
+            "Donation_Location_Details__c": "We are located on the East side of Havana in Havana Square, which is behind a strip mall located between Bayaud and 1st on Havana.  From Havana, you will see an American flag and a small sign that says Havana Square.  There is a liquor store on the corner of the strip mall.  Once you pull into Havana Square, you will proceed past the strip mall and will see a bunch of warehouse spaces.  Go straight to Suite 610, there will be a WeeCycle sign out front and pull around back where we will have your order ready for pick up.",
+            "State__c": "CO",
+            "Street_Address__c": "60 S Havana St",
+            "Zip_Code__c": "80012"
+        },
+        {
+            "attributes": {
+                "type": "Donation_Location__c",
+                "referenceId": "Donation_Location__cRef18"
+            },
+            "Name": "Good Buy Gear",
+            "State__c": "CO"
+        },
+        {
+            "attributes": {
+                "type": "Donation_Location__c",
+                "referenceId": "Donation_Location__cRef19"
+            },
+            "Name": "Timbuk Toys Warehouse",
+            "City__c": "Denver",
+            "State__c": "CO",
+            "Street_Address__c": "900 Quince St unit B",
+            "Zip_Code__c": "80231"
+        }
+    ]
+}

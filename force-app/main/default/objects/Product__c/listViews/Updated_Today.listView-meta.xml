@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Updated_Today</fullName>
+    <columns>NAME</columns>
+    <columns>Family__c</columns>
+    <columns>Quantity__c</columns>
+    <columns>Quantity_Pending__c</columns>
+    <columns>Quantity_Needed__c</columns>
+    <columns>Quantity_Short__c</columns>
+    <columns>Item_Bundle__c</columns>
+    <columns>Value__c</columns>
+    <columns>Weight_in_Pounds__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LAST_UPDATE</field>
+        <operation>equals</operation>
+        <value>TODAY</value>
+    </filters>
+    <label>Updated Today</label>
+</ListView>

@@ -1,0 +1,179 @@
+<messaging:emailTemplate subject="WeeCycle Gear Order Submitted (#{!relatedTo.Name})" 
+   replyTo="info@weecycle.org"
+   recipientType="Contact" 
+   relatedToType="Gear_Order__c">
+  <messaging:htmlEmailBody >
+    <html>
+      <body>       
+        <font face="arial" size="2">
+          <p>Dear {!relatedTo.Order_Contact__r.Name}, thank you for your WeeCycle gear order!</p>
+          
+          <p style="font-size: 14px; font-weight: bold; background: #EEA352; padding: 5px;">Your Gear Order</p>
+          <p>Order Number: {!relatedTo.Name}</p>
+          <p>Order Date: 
+              <apex:outputText value="{0, date, MMMM d','  yyyy}">
+                <apex:param value="{!relatedTo.Order_Submitted__c}" />
+              </apex:outputText>
+          </p>           
+          <p>Comments / Special Requests: {!relatedTo.Comment__c}</p>
+          
+          <p style="font-size: 14px; font-weight: bold; background: #EEA352; padding: 5px;"><b>Partner Organization</b></p>         
+          <p>Organization Name: {!relatedTo.Partner_Organization__r.Name}</p>  
+          <p>Contact Name: {!relatedTo.Order_Contact__r.Name}</p> 
+          <p>Email: {!relatedTo.Order_Contact__r.Email}</p>
+          <p>Mobile Phone: {!relatedTo.Order_Contact__r.MobilePhone}</p>                 
+          
+          <p style="font-size: 14px; font-weight: bold; background: #EEA352; padding: 5px;"><b>Demographics</b></p>          
+          <p># of Families Served: {!Text(relatedTo.Num_Families_Served__c)}</p>
+          <p># of Children Served: {!Text(relatedTo.Num_Children_Served__c)}</p>
+          
+          <table style="border: 1px solid #EEA352;">
+            <tr style="border: 1px solid #EEA352;"> 
+               <td style="font-size: 12px; font-weight: bold; border: 1px solid #EEA352; padding: 5px; text-align: left;">Child Alias</td>
+               <td style="font-size: 12px; font-weight: bold; border: 1px solid #EEA352; padding: 5px; text-align: left;">Child Gender</td>
+               <td style="font-size: 12px; font-weight: bold; border: 1px solid #EEA352; padding: 5px; text-align: left;">Child Age</td>
+               <td style="font-size: 12px; font-weight: bold; border: 1px solid #EEA352; padding: 5px; text-align: left;">Child Ethnicity</td>
+               <td style="font-size: 12px; font-weight: bold; border: 1px solid #EEA352; padding: 5px; text-align: left;">Parent Age</td>
+               <td style="font-size: 12px; font-weight: bold; border: 1px solid #EEA352; padding: 5px; text-align: left;">Parent Gender</td>
+               <td style="font-size: 12px; font-weight: bold; border: 1px solid #EEA352; padding: 5px; text-align: left;">Parent Ethnicity</td>
+               <td style="font-size: 12px; font-weight: bold; border: 1px solid #EEA352; padding: 5px; text-align: left;">Parent Marital Status</td>
+               <td style="font-size: 12px; font-weight: bold; border: 1px solid #EEA352; padding: 5px; text-align: left;">Siblings</td>
+               <td style="font-size: 12px; font-weight: bold; border: 1px solid #EEA352; padding: 5px; text-align: left;">Comments / Special Requests</td>
+            </tr>
+            <apex:repeat var="god" value="{!relatedTo.Gear_Order_Demographics__r}">
+              <tr style="border: 1px solid #EEA352;">
+                <td style="font-size: 12px; border: 1px solid #EEA352; padding: 5px; text-align: left;">{!god.Child_Alias__c}</td>
+                <td style="font-size: 12px; border: 1px solid #EEA352; padding: 5px; text-align: left;">{!god.Child_Gender__c}</td>
+                <td style="font-size: 12px; border: 1px solid #EEA352; padding: 5px; text-align: left;">{!god.Child_Age__c}</td>
+                <td style="font-size: 12px; border: 1px solid #EEA352; padding: 5px; text-align: left;">{!god.Child_Race_Ethnicity__c}</td>
+                <td style="font-size: 12px; border: 1px solid #EEA352; padding: 5px; text-align: left;">{!god.Parent_Age__c}</td>
+                <td style="font-size: 12px; border: 1px solid #EEA352; padding: 5px; text-align: left;">{!god.Parent_Gender__c}</td>
+                <td style="font-size: 12px; border: 1px solid #EEA352; padding: 5px; text-align: left;">{!god.Parent_Race_Ethnicity__c}</td>
+                <td style="font-size: 12px; border: 1px solid #EEA352; padding: 5px; text-align: left;">{!god.Parent_Marital_Status__c}</td>
+                <td style="font-size: 12px; border: 1px solid #EEA352; padding: 5px; text-align: left;">{!Text(god.Siblings__c)}</td>              
+                <td style="font-size: 12px; border: 1px solid #EEA352; padding: 5px; text-align: left;">{!god.Comment__c}</td>               
+              </tr>
+            </apex:repeat>                 
+          </table>
+          
+          <apex:repeat var="god" value="{!relatedTo.Gear_Order_Demographics__r}">
+              <p style="font-size: 14px; font-weight: bold; background: #EEA352; padding: 5px;">
+                  <b>Order Items For Child (Gender: {!god.Child_Gender__c} | Age: {!god.Child_Age__c} | Ethnicity: {!god.Child_Race_Ethnicity__c})</b>
+              </p>
+
+              <table style="border: 1px solid #EEA352;">
+                <tr style="border: 1px solid #EEA352;"> 
+                   <td style="font-size: 12px; font-weight: bold; border: 1px solid #EEA352; padding: 5px; text-align: left;">Product</td>
+                   <td style="font-size: 12px; font-weight: bold; border: 1px solid #EEA352; padding: 5px; text-align: left;">Quantity</td>
+                   <td style="font-size: 12px; font-weight: bold; border: 1px solid #EEA352; padding: 5px; text-align: left;">Additional Details</td>
+                   <td style="font-size: 12px; font-weight: bold; border: 1px solid #EEA352; padding: 5px; text-align: left;">Comments / Special Requests</td>               
+                </tr>                
+                <apex:repeat var="goi" value="{!relatedTo.Gear_Order_Items__r}">
+                      <tr style="display: {!If(goi.Gear_Order_Demographic__c == god.Id ,'','none')}; border: 1px solid #EEA352;">
+                        <td style="font-size: 12px; border: 1px solid #EEA352; padding: 5px; text-align: left;">{!goi.Product__r.Name}</td>
+                        <td style="font-size: 12px; border: 1px solid #EEA352; padding: 5px; text-align: left;">{!Text(goi.Quantity__c)}</td>
+                        <td style="font-size: 12px; border: 1px solid #EEA352; padding: 5px; text-align: left;">
+                            <p style="display: {!If(CONTAINS(goi.Product__r.Name,'Clothing'),'','none')};">Season: {!goi.Season__c}</p>
+                            <p style="display: {!If(CONTAINS(goi.Product__r.Name,'Clothing'),'','none')};">Clothing Size: {!goi.Clothing_Size__c}</p>
+                            <p style="display: {!If(CONTAINS(goi.Product__r.Name,'Diapers'),'','none')};">Diaper Size: {!goi.Diaper_Size__c}</p>
+                        </td>
+                        <td style="font-size: 12px; border: 1px solid #EEA352; padding: 5px; text-align: left;">{!goi.Comment__c}</td>
+                      </tr>
+                </apex:repeat>                                             
+              </table>
+          </apex:repeat>
+ 
+            <p>Thanks from all of us at WeeCycle!</p>
+            
+            <p>
+            <b>Morgan Seibel</b><br></br>
+            Program Director, WeeCycle<br></br>
+            </p>
+            
+            <p>
+            60 South Havana, Suite 610<br></br>
+            Aurora, CO 80012<br></br>
+            Phone: (720) 319-7792<br></br>
+            Website: www.weecycle.org<br></br>
+            Email: info@weecycle.org
+            </p>
+            
+            <img src="
+            https://weecycle--c.documentforce.com/servlet/servlet.ImageServer?id=0151I000000PIad&oid=00D1I000002wS4S&lastMod=1526478214000"/> 
+                      
+        </font>
+      </body>
+    </html>
+  </messaging:htmlEmailBody> 
+  <messaging:plainTextEmailBody >
+Dear {!relatedTo.Order_Contact__r.Name}, thank you for your WeeCycle gear order!
+          
+--- Gear Order ---
+
+Order Number: {!relatedTo.Name}
+
+Order Date: <apex:outputText value="{0, date, MMMM d','  yyyy}"><apex:param value="{!relatedTo.Order_Submitted__c}"/></apex:outputText>
+         
+Comments / Special Requests: {!relatedTo.Comment__c}
+
+--- Partner Organization ---      
+
+Organization Name: {!relatedTo.Partner_Organization__r.Name}
+
+Contact Name: {!relatedTo.Order_Contact__r.Name}
+
+Email: {!relatedTo.Order_Contact__r.Email}
+
+Mobile Phone: {!relatedTo.Order_Contact__r.MobilePhone}                 
+
+--- Demographics ---         
+
+# of Families Served: {!Text(relatedTo.Num_Families_Served__c)}
+
+# of Children Served: {!Text(relatedTo.Num_Children_Served__c)}
+
+<apex:repeat var="god" value="{!relatedTo.Gear_Order_Demographics__r}">
+
+  [Demographic]
+  Child Gender: {!god.Child_Gender__c}
+  Child Age: {!god.Child_Age__c}
+  Child Ethnicity: {!god.Child_Race_Ethnicity__c}
+  Parent Age: {!god.Parent_Age__c}
+  Parent Gender: {!god.Parent_Gender__c}
+  Parent Ethnicity: {!god.Parent_Race_Ethnicity__c}
+  Parent Marital Status: {!god.Parent_Marital_Status__c}
+  Siblings: {!Text(god.Siblings__c)}
+  Comments / Special Requests: {!god.Comment__c}
+  
+</apex:repeat>                 
+
+          
+<apex:repeat var="god" value="{!relatedTo.Gear_Order_Demographics__r}">
+
+--- Order Items For Child (Gender: {!god.Child_Gender__c} | Age: {!god.Child_Age__c} | Ethnicity: {!god.Child_Race_Ethnicity__c}) ---
+             
+    <apex:repeat var="goi" value="{!relatedTo.Gear_Order_Items__r}">
+
+      [Order Item]
+      Product: {!goi.Product__r.Name}
+      Quantity: {!Text(goi.Quantity__c)}
+      Additional Details: Season: {!goi.Season__c} | Clothing Size: {!goi.Clothing_Size__c} | Diaper Size: {!goi.Diaper_Size__c}
+      Comments / Special Requests: {!goi.Comment__c}
+      
+    </apex:repeat>
+                                               
+</apex:repeat>
+ 
+Thanks from all of us at WeeCycle!
+
+Morgan Seibel
+Program Director, WeeCycle
+
+60 South Havana, Suite 610
+Aurora, CO 80012
+Phone: (720) 319-7792
+Website: www.weecycle.org
+Email: info@weecycle.org
+             
+  </messaging:plainTextEmailBody>  
+</messaging:emailTemplate>

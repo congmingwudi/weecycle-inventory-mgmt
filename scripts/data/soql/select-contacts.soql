@@ -1,0 +1,1 @@
+Select LastName, FirstName, Salutation, MailingStreet, MailingCity, MailingState, MailingPostalCode, MailingCountry, MailingLatitude, MailingLongitude, Phone, MobilePhone, Email, Title, Description FROM Contact

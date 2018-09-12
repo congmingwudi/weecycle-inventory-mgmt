@@ -1,0 +1,14 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Contact",
+                "referenceId": "ContactRef1"
+            },
+            "LastName": "Cox",
+            "FirstName": "Ryan",
+            "MobilePhone": "720-982-5916",
+            "Email": "ryan.cox@salesforce.com"
+        }
+    ]
+}

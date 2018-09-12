@@ -1,0 +1,1 @@
+Select Name, Description__c, Family__c, Product_Details__c, Value__c, Weight_Unit_of_Measure__c, Weight__c, Weight_in_Pounds__c, Available_To_Order__c, Item_Bundle__c FROM Product__c

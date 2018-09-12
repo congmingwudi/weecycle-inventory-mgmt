@@ -1,0 +1,1671 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef1"
+            },
+            "Name": "Blankets - Swaddle",
+            "Description__c": "N/A",
+            "Family__c": "Nursery",
+            "Product_Details__c": "N/A",
+            "Value__c": 0,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 0.6,
+            "Weight_in_Pounds__c": 0.6,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef2"
+            },
+            "Name": "Stoller (Double) - Snap and Go",
+            "Description__c": "N/A",
+            "Family__c": "Gear",
+            "Product_Details__c": "N/A",
+            "Value__c": 40,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 18,
+            "Weight_in_Pounds__c": 18,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef3"
+            },
+            "Name": "Stroller (Single) - Snap and Go",
+            "Description__c": "N/A",
+            "Family__c": "Gear",
+            "Product_Details__c": "N/A",
+            "Value__c": 30,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 18,
+            "Weight_in_Pounds__c": 18,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef4"
+            },
+            "Name": "Stroller (Single) -  Umbrella",
+            "Description__c": "N/A",
+            "Family__c": "Gear",
+            "Product_Details__c": "N/A",
+            "Value__c": 10,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 14,
+            "Weight_in_Pounds__c": 14,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef5"
+            },
+            "Name": "Stroller  (Single) - Jogger",
+            "Description__c": "N/A",
+            "Family__c": "Gear",
+            "Product_Details__c": "N/A",
+            "Value__c": 75,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 27,
+            "Weight_in_Pounds__c": 27,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef6"
+            },
+            "Name": "Scale",
+            "Family__c": "Bath & Potty",
+            "Value__c": 20,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 2,
+            "Weight_in_Pounds__c": 2,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef7"
+            },
+            "Name": "New 4moms Stroller",
+            "Family__c": "Gear",
+            "Value__c": 700,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 15,
+            "Weight_in_Pounds__c": 15,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef8"
+            },
+            "Name": "Test Product",
+            "Family__c": "None",
+            "Value__c": 1,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 1,
+            "Weight_in_Pounds__c": 1,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 30
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef9"
+            },
+            "Name": "Sleep Sack",
+            "Family__c": "Nursery",
+            "Value__c": 5,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 0.1,
+            "Weight_in_Pounds__c": 0.1,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef10"
+            },
+            "Name": "Train/Play Table",
+            "Family__c": "Activity",
+            "Value__c": 100,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 25,
+            "Weight_in_Pounds__c": 25,
+            "Available_To_Order__c": false,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef11"
+            },
+            "Name": "Giggle Bath Product",
+            "Family__c": "Bath & Potty",
+            "Value__c": 14.97,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 0.15,
+            "Weight_in_Pounds__c": 0.15,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef12"
+            },
+            "Name": "Front Carrier",
+            "Description__c": "front carry baby carrier",
+            "Family__c": "Gear",
+            "Product_Details__c": "N/A",
+            "Value__c": 25,
+            "Weight_Unit_of_Measure__c": "kilogram (kg)",
+            "Weight__c": 1.5,
+            "Weight_in_Pounds__c": 3.31,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef13"
+            },
+            "Name": "New Front Carriers (Boba) $125",
+            "Description__c": "front carry baby carrier",
+            "Family__c": "Gear",
+            "Product_Details__c": "N/A",
+            "Value__c": 125,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 2.2,
+            "Weight_in_Pounds__c": 2.2,
+            "Available_To_Order__c": false,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef14"
+            },
+            "Name": "New Front Carriers (Boba) $130",
+            "Description__c": "front carry baby carrier",
+            "Family__c": "Gear",
+            "Product_Details__c": "N/A",
+            "Value__c": 130,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 1.7,
+            "Weight_in_Pounds__c": 1.7,
+            "Available_To_Order__c": false,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef15"
+            },
+            "Name": "Sling",
+            "Description__c": "N/A",
+            "Family__c": "Gear",
+            "Product_Details__c": "N/A",
+            "Value__c": 20,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 2,
+            "Weight_in_Pounds__c": 2,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef16"
+            },
+            "Name": "Infant Car Seat",
+            "Description__c": "N/A",
+            "Family__c": "Gear",
+            "Product_Details__c": "N/A",
+            "Value__c": 50,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 27,
+            "Weight_in_Pounds__c": 27,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef17"
+            },
+            "Name": "Convertible Car Seat",
+            "Description__c": "N/A",
+            "Family__c": "Gear",
+            "Product_Details__c": "N/A",
+            "Value__c": 30,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 27,
+            "Weight_in_Pounds__c": 27,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef18"
+            },
+            "Name": "Booster Car Seat",
+            "Description__c": "N/A",
+            "Family__c": "Gear",
+            "Product_Details__c": "N/A",
+            "Value__c": 25,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 9,
+            "Weight_in_Pounds__c": 9,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef19"
+            },
+            "Name": "Stroller (single)",
+            "Description__c": "N/A",
+            "Family__c": "Gear",
+            "Product_Details__c": "N/A",
+            "Value__c": 50,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 30,
+            "Weight_in_Pounds__c": 30,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef20"
+            },
+            "Name": "Stroller (double)",
+            "Description__c": "N/A",
+            "Family__c": "Gear",
+            "Product_Details__c": "N/A",
+            "Value__c": 70,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 25,
+            "Weight_in_Pounds__c": 25,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef21"
+            },
+            "Name": "Car Seat Base",
+            "Description__c": "N/A",
+            "Family__c": "Gear",
+            "Product_Details__c": "N/A",
+            "Value__c": 20,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 6,
+            "Weight_in_Pounds__c": 6,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef22"
+            },
+            "Name": "New Front Carriers (Boba) $140",
+            "Description__c": "front carry baby carrier",
+            "Family__c": "Gear",
+            "Product_Details__c": "N/A",
+            "Value__c": 140,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 1.98,
+            "Weight_in_Pounds__c": 1.98,
+            "Available_To_Order__c": false,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef23"
+            },
+            "Name": "New Front Carriers (Boba) $160",
+            "Description__c": "front carry baby carrier",
+            "Family__c": "Gear",
+            "Product_Details__c": "N/A",
+            "Value__c": 160,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 1.98,
+            "Weight_in_Pounds__c": 1.98,
+            "Available_To_Order__c": false,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef24"
+            },
+            "Name": "New Front Carriers (Boba) $40",
+            "Description__c": "front carry baby carrier",
+            "Family__c": "Gear",
+            "Product_Details__c": "N/A",
+            "Value__c": 39.99,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 1.7,
+            "Weight_in_Pounds__c": 1.7,
+            "Available_To_Order__c": false,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef25"
+            },
+            "Name": "Car Seat Cover",
+            "Description__c": "N/A",
+            "Family__c": "Gear",
+            "Product_Details__c": "N/A",
+            "Value__c": 10,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 0.5,
+            "Weight_in_Pounds__c": 0.5,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef26"
+            },
+            "Name": "Infant Bouncer Chair",
+            "Description__c": "N/A",
+            "Family__c": "Activity",
+            "Product_Details__c": "N/A",
+            "Value__c": 25,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 5,
+            "Weight_in_Pounds__c": 5,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef27"
+            },
+            "Name": "Bumbo Seat",
+            "Description__c": "N/A",
+            "Family__c": "Activity",
+            "Product_Details__c": "N/A",
+            "Value__c": 15,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 3.5,
+            "Weight_in_Pounds__c": 3.5,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef28"
+            },
+            "Name": "Baby Food",
+            "Description__c": "N/A",
+            "Family__c": "Feeding",
+            "Product_Details__c": "N/A",
+            "Value__c": 1,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 0.5,
+            "Weight_in_Pounds__c": 0.5,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef29"
+            },
+            "Name": "Swing",
+            "Description__c": "N/A",
+            "Family__c": "Activity",
+            "Product_Details__c": "N/A",
+            "Value__c": 35,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 17.2,
+            "Weight_in_Pounds__c": 17.2,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef30"
+            },
+            "Name": "Walker",
+            "Description__c": "N/A",
+            "Family__c": "Activity",
+            "Product_Details__c": "N/A",
+            "Value__c": 35,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 9,
+            "Weight_in_Pounds__c": 9,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef31"
+            },
+            "Name": "Floor Playmat",
+            "Description__c": "N/A",
+            "Family__c": "Activity",
+            "Product_Details__c": "N/A",
+            "Value__c": 15,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 4.8,
+            "Weight_in_Pounds__c": 4.8,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef32"
+            },
+            "Name": "High Chair",
+            "Description__c": "N/A",
+            "Family__c": "Feeding",
+            "Product_Details__c": "N/A",
+            "Value__c": 35,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 11,
+            "Weight_in_Pounds__c": 11,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef33"
+            },
+            "Name": "Potty",
+            "Description__c": "N/A",
+            "Family__c": "Bath & Potty",
+            "Product_Details__c": "N/A",
+            "Value__c": 5,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 2.5,
+            "Weight_in_Pounds__c": 2.5,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef34"
+            },
+            "Name": "Bottle Racks/Sanitizers",
+            "Description__c": "N/A",
+            "Family__c": "Feeding",
+            "Product_Details__c": "N/A",
+            "Value__c": 15,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 0.42,
+            "Weight_in_Pounds__c": 0.42,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef35"
+            },
+            "Name": "Infant Tub",
+            "Description__c": "N/A",
+            "Family__c": "Bath & Potty",
+            "Product_Details__c": "N/A",
+            "Value__c": 3,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 4,
+            "Weight_in_Pounds__c": 4,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef36"
+            },
+            "Name": "Towels",
+            "Description__c": "N/A",
+            "Family__c": "Bath & Potty",
+            "Product_Details__c": "N/A",
+            "Value__c": 3,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 0.66,
+            "Weight_in_Pounds__c": 0.66,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef37"
+            },
+            "Name": "Washcloths",
+            "Description__c": "N/A",
+            "Family__c": "Bath & Potty",
+            "Product_Details__c": "N/A",
+            "Value__c": 1,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 0.1,
+            "Weight_in_Pounds__c": 0.1,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef38"
+            },
+            "Name": "Timbuk Donation Mom to Be Gift Sets",
+            "Description__c": "N/A",
+            "Family__c": "Bath & Potty",
+            "Product_Details__c": "N/A",
+            "Value__c": 50,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 0,
+            "Weight_in_Pounds__c": 0,
+            "Available_To_Order__c": false,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef39"
+            },
+            "Name": "Humidifer",
+            "Description__c": "N/A",
+            "Family__c": "Bath & Potty",
+            "Product_Details__c": "N/A",
+            "Value__c": 20,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 4,
+            "Weight_in_Pounds__c": 4,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef40"
+            },
+            "Name": "Fresh Monster Bath Product",
+            "Description__c": "N/A",
+            "Family__c": "Bath & Potty",
+            "Product_Details__c": "N/A",
+            "Value__c": 0,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 0.65,
+            "Weight_in_Pounds__c": 0.65,
+            "Available_To_Order__c": false,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef41"
+            },
+            "Name": "Crib",
+            "Description__c": "N/A",
+            "Family__c": "Nursery",
+            "Product_Details__c": "N/A",
+            "Value__c": 100,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 46,
+            "Weight_in_Pounds__c": 46,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef42"
+            },
+            "Name": "Crib Mattress",
+            "Description__c": "N/A",
+            "Family__c": "Nursery",
+            "Product_Details__c": "N/A",
+            "Value__c": 50,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 11.5,
+            "Weight_in_Pounds__c": 11.5,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef43"
+            },
+            "Name": "Changing Table",
+            "Description__c": "N/A",
+            "Family__c": "Nursery",
+            "Product_Details__c": "N/A",
+            "Value__c": 40,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 25,
+            "Weight_in_Pounds__c": 25,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef44"
+            },
+            "Name": "Crib Bedding",
+            "Description__c": "N/A",
+            "Family__c": "Nursery",
+            "Product_Details__c": "N/A",
+            "Value__c": 50,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 4,
+            "Weight_in_Pounds__c": 4,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef45"
+            },
+            "Name": "Toddler Bed",
+            "Description__c": "N/A",
+            "Family__c": "Nursery",
+            "Product_Details__c": "N/A",
+            "Value__c": 75,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 25,
+            "Weight_in_Pounds__c": 25,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef46"
+            },
+            "Name": "Blanket",
+            "Description__c": "N/A",
+            "Family__c": "Nursery",
+            "Product_Details__c": "N/A",
+            "Value__c": 3,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 0.6,
+            "Weight_in_Pounds__c": 0.6,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef47"
+            },
+            "Name": "Glider",
+            "Description__c": "N/A",
+            "Family__c": "Nursery",
+            "Product_Details__c": "N/A",
+            "Value__c": 60,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 38,
+            "Weight_in_Pounds__c": 38,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef48"
+            },
+            "Name": "Crib Toys / Mobile",
+            "Description__c": "N/A",
+            "Family__c": "Nursery",
+            "Product_Details__c": "N/A",
+            "Value__c": 10,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 1,
+            "Weight_in_Pounds__c": 1,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef49"
+            },
+            "Name": "Pack_n_Play",
+            "Description__c": "N/A",
+            "Family__c": "Nursery",
+            "Product_Details__c": "N/A",
+            "Value__c": 35,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 22,
+            "Weight_in_Pounds__c": 22,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef50"
+            },
+            "Name": "Bassinet",
+            "Description__c": "N/A",
+            "Family__c": "Nursery",
+            "Product_Details__c": "N/A",
+            "Value__c": 35,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 18,
+            "Weight_in_Pounds__c": 18,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef51"
+            },
+            "Name": "Booster Seat",
+            "Description__c": "N/A",
+            "Family__c": "Feeding",
+            "Product_Details__c": "N/A",
+            "Value__c": 15,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 3,
+            "Weight_in_Pounds__c": 3,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef52"
+            },
+            "Name": "Teethers/Pacifiers",
+            "Description__c": "N/A",
+            "Family__c": "Feeding",
+            "Product_Details__c": "N/A",
+            "Value__c": 1,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 0.02,
+            "Weight_in_Pounds__c": 0.02,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef53"
+            },
+            "Name": "Bibs",
+            "Description__c": "N/A",
+            "Family__c": "Feeding",
+            "Product_Details__c": "N/A",
+            "Value__c": 1,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 0.03,
+            "Weight_in_Pounds__c": 0.03,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef54"
+            },
+            "Name": "Burp Cloths",
+            "Description__c": "N/A",
+            "Family__c": "Feeding",
+            "Product_Details__c": "N/A",
+            "Value__c": 1,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 0.06,
+            "Weight_in_Pounds__c": 0.06,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef55"
+            },
+            "Name": "Formula",
+            "Description__c": "N/A",
+            "Family__c": "Feeding",
+            "Product_Details__c": "N/A",
+            "Value__c": 10,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 2,
+            "Weight_in_Pounds__c": 2,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef56"
+            },
+            "Name": "Nursing Pillow",
+            "Description__c": "N/A",
+            "Family__c": "Feeding",
+            "Product_Details__c": "N/A",
+            "Value__c": 5,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 0.9,
+            "Weight_in_Pounds__c": 0.9,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef57"
+            },
+            "Name": "Bottles/Nipples/Cups/Utensils",
+            "Description__c": "N/A",
+            "Family__c": "Feeding",
+            "Product_Details__c": "N/A",
+            "Value__c": 1,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 1.06,
+            "Weight_in_Pounds__c": 1.06,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef58"
+            },
+            "Name": "Bottle Warmers/Cleaners or Accessories",
+            "Description__c": "N/A",
+            "Family__c": "Feeding",
+            "Product_Details__c": "N/A",
+            "Value__c": 15,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 2,
+            "Weight_in_Pounds__c": 2,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef59"
+            },
+            "Name": "Breast Pump",
+            "Description__c": "N/A",
+            "Family__c": "Feeding",
+            "Product_Details__c": "N/A",
+            "Value__c": 50,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 2,
+            "Weight_in_Pounds__c": 2,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef60"
+            },
+            "Name": "Breast Pads",
+            "Description__c": "N/A",
+            "Family__c": "Feeding",
+            "Product_Details__c": "N/A",
+            "Value__c": 10,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 1,
+            "Weight_in_Pounds__c": 1,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef61"
+            },
+            "Name": "Kids Table and Chairs",
+            "Description__c": "N/A",
+            "Family__c": "Feeding",
+            "Product_Details__c": "N/A",
+            "Value__c": 45,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 18,
+            "Weight_in_Pounds__c": 18,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef62"
+            },
+            "Name": "Changing Pad & Cover",
+            "Description__c": "N/A",
+            "Family__c": "Bath & Potty",
+            "Product_Details__c": "N/A",
+            "Value__c": 20,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 14.5,
+            "Weight_in_Pounds__c": 14.5,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef63"
+            },
+            "Name": "Diapers",
+            "Description__c": "N/A",
+            "Family__c": "Bath & Potty",
+            "Product_Details__c": "N/A",
+            "Value__c": 18,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 3.1,
+            "Weight_in_Pounds__c": 3.1,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef64"
+            },
+            "Name": "Diaper Wipes",
+            "Description__c": "N/A",
+            "Family__c": "Bath & Potty",
+            "Product_Details__c": "N/A",
+            "Value__c": 5,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 1.4,
+            "Weight_in_Pounds__c": 1.4,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef65"
+            },
+            "Name": "Diaper Bag",
+            "Description__c": "N/A",
+            "Family__c": "Bath & Potty",
+            "Product_Details__c": "N/A",
+            "Value__c": 15,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 1.5,
+            "Weight_in_Pounds__c": 1.5,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef66"
+            },
+            "Name": "New GoToo Organizers Diaper Bags",
+            "Description__c": "N/A",
+            "Family__c": "Bath & Potty",
+            "Product_Details__c": "N/A",
+            "Value__c": 19.95,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 0.5,
+            "Weight_in_Pounds__c": 0.5,
+            "Available_To_Order__c": false,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef67"
+            },
+            "Name": "Diaper Pail & Liners",
+            "Description__c": "N/A",
+            "Family__c": "Bath & Potty",
+            "Product_Details__c": "N/A",
+            "Value__c": 20,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 10,
+            "Weight_in_Pounds__c": 10,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef68"
+            },
+            "Name": "Baby Box",
+            "Family__c": "Nursery",
+            "Value__c": 69.99,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 3,
+            "Weight_in_Pounds__c": 3,
+            "Available_To_Order__c": false,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef69"
+            },
+            "Name": "Bed Railing",
+            "Description__c": "N/A",
+            "Family__c": "Nursery",
+            "Product_Details__c": "N/A",
+            "Value__c": 15,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 3,
+            "Weight_in_Pounds__c": 3,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef70"
+            },
+            "Name": "Car Mirror",
+            "Description__c": "N/A",
+            "Family__c": "Health & Safety",
+            "Product_Details__c": "N/A",
+            "Value__c": 5,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 1.19,
+            "Weight_in_Pounds__c": 1.19,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef71"
+            },
+            "Name": "Monitor",
+            "Description__c": "N/A",
+            "Family__c": "Health & Safety",
+            "Product_Details__c": "N/A",
+            "Value__c": 15,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 1.2,
+            "Weight_in_Pounds__c": 1.2,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef72"
+            },
+            "Name": "Safety Gate",
+            "Description__c": "N/A",
+            "Family__c": "Health & Safety",
+            "Product_Details__c": "N/A",
+            "Value__c": 10,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 8,
+            "Weight_in_Pounds__c": 8,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef73"
+            },
+            "Name": "Bike Trailer",
+            "Description__c": "N/A",
+            "Family__c": "Health & Safety",
+            "Product_Details__c": "N/A",
+            "Value__c": 100,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 30,
+            "Weight_in_Pounds__c": 30,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef74"
+            },
+            "Name": "Baby Proofing Items",
+            "Description__c": "N/A",
+            "Family__c": "Health & Safety",
+            "Product_Details__c": "N/A",
+            "Value__c": 1,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 1,
+            "Weight_in_Pounds__c": 1,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef75"
+            },
+            "Name": "Learning Tower",
+            "Description__c": "N/A",
+            "Family__c": "Health & Safety",
+            "Product_Details__c": "N/A",
+            "Value__c": 150,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 28,
+            "Weight_in_Pounds__c": 28,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef76"
+            },
+            "Name": "Toys - Infant",
+            "Description__c": "N/A",
+            "Family__c": "Toys",
+            "Product_Details__c": "N/A",
+            "Value__c": 1,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 0.31,
+            "Weight_in_Pounds__c": 0.31,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef77"
+            },
+            "Name": "Toys - Toddler",
+            "Description__c": "N/A",
+            "Family__c": "Toys",
+            "Product_Details__c": "N/A",
+            "Value__c": 1,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 1,
+            "Weight_in_Pounds__c": 1,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef78"
+            },
+            "Name": "Ride On / Push",
+            "Description__c": "N/A",
+            "Family__c": "Toys",
+            "Product_Details__c": "N/A",
+            "Value__c": 10,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 8,
+            "Weight_in_Pounds__c": 8,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef79"
+            },
+            "Name": "Stuffed Animals",
+            "Description__c": "N/A",
+            "Family__c": "Toys",
+            "Product_Details__c": "N/A",
+            "Value__c": 1,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 0.31,
+            "Weight_in_Pounds__c": 0.31,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef80"
+            },
+            "Name": "New Toys",
+            "Description__c": "N/A",
+            "Family__c": "Toys",
+            "Product_Details__c": "N/A",
+            "Value__c": 10,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 0.75,
+            "Weight_in_Pounds__c": 0.75,
+            "Available_To_Order__c": false,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef81"
+            },
+            "Name": "Books - Infant",
+            "Description__c": "N/A",
+            "Family__c": "Books",
+            "Product_Details__c": "N/A",
+            "Value__c": 1,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 0.2,
+            "Weight_in_Pounds__c": 0.2,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef82"
+            },
+            "Name": "Books - Toddler",
+            "Description__c": "N/A",
+            "Family__c": "Books",
+            "Product_Details__c": "N/A",
+            "Value__c": 1,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 0.6,
+            "Weight_in_Pounds__c": 0.6,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef83"
+            },
+            "Name": "Books  (Parenting)",
+            "Description__c": "N/A",
+            "Family__c": "Books",
+            "Product_Details__c": "N/A",
+            "Value__c": 1,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 1,
+            "Weight_in_Pounds__c": 1,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef84"
+            },
+            "Name": "Music",
+            "Description__c": "N/A",
+            "Family__c": "Videos & Music",
+            "Product_Details__c": "N/A",
+            "Value__c": 3,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 0.9,
+            "Weight_in_Pounds__c": 0.9,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef85"
+            },
+            "Name": "Videos / DVD",
+            "Description__c": "N/A",
+            "Family__c": "Videos & Music",
+            "Product_Details__c": "N/A",
+            "Value__c": 5,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 0.9,
+            "Weight_in_Pounds__c": 0.9,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef86"
+            },
+            "Name": "Clothing",
+            "Description__c": "N/A",
+            "Family__c": "Clothing",
+            "Product_Details__c": "N/A",
+            "Value__c": 0.5,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 0.13,
+            "Weight_in_Pounds__c": 0.13,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 30
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef87"
+            },
+            "Name": "New Clothing",
+            "Description__c": "N/A",
+            "Family__c": "Clothing",
+            "Product_Details__c": "N/A",
+            "Value__c": 10,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 0.5,
+            "Weight_in_Pounds__c": 0.5,
+            "Available_To_Order__c": false,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef88"
+            },
+            "Name": "Nursing Supplies",
+            "Description__c": "N/A",
+            "Family__c": "Feeding",
+            "Product_Details__c": "N/A",
+            "Value__c": 3,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 1,
+            "Weight_in_Pounds__c": 1,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef89"
+            },
+            "Name": "Activity Centers/Exersaucer",
+            "Description__c": "N/A",
+            "Family__c": "Activity",
+            "Product_Details__c": "N/A",
+            "Value__c": 20,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 9,
+            "Weight_in_Pounds__c": 9,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef90"
+            },
+            "Name": "Jumpers (Doorway)",
+            "Description__c": "N/A",
+            "Family__c": "Activity",
+            "Product_Details__c": "N/A",
+            "Value__c": 15,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 3.3,
+            "Weight_in_Pounds__c": 3.3,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef91"
+            },
+            "Name": "Co-Sleeper",
+            "Description__c": "N/A",
+            "Family__c": "Nursery",
+            "Product_Details__c": "N/A",
+            "Value__c": 50,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 3,
+            "Weight_in_Pounds__c": 3,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef92"
+            },
+            "Name": "Diapers (Swim) - Lg 32 lbs +",
+            "Description__c": "N/A",
+            "Family__c": "Bath & Potty",
+            "Product_Details__c": "N/A",
+            "Value__c": 0,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 0.1,
+            "Weight_in_Pounds__c": 0.1,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef93"
+            },
+            "Name": "Diapers (Swim) - Small 16-26#",
+            "Description__c": "N/A",
+            "Family__c": "Bath & Potty",
+            "Product_Details__c": "N/A",
+            "Value__c": 0.2,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 0.1,
+            "Weight_in_Pounds__c": 0.1,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef94"
+            },
+            "Name": "Body Pillow (Pregnancy)",
+            "Description__c": "N/A",
+            "Family__c": "Nursery",
+            "Product_Details__c": "N/A",
+            "Value__c": 10,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 8.5,
+            "Weight_in_Pounds__c": 8.5,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef95"
+            },
+            "Name": "Backpack - Hiking",
+            "Description__c": "N/A",
+            "Family__c": "Gear",
+            "Product_Details__c": "N/A",
+            "Value__c": 50,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 7,
+            "Weight_in_Pounds__c": 7,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef96"
+            },
+            "Name": "Diapers (Swim) - Md. 24#-34#",
+            "Description__c": "N/A",
+            "Family__c": "Bath & Potty",
+            "Product_Details__c": "N/A",
+            "Value__c": 0.2,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 0.1,
+            "Weight_in_Pounds__c": 0.1,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef97"
+            },
+            "Name": "Kid Wild Bedding",
+            "Family__c": "Nursery",
+            "Value__c": 73.24,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 2,
+            "Weight_in_Pounds__c": 2,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef98"
+            },
+            "Name": "Nasal Aspirators",
+            "Family__c": "Bath & Potty",
+            "Value__c": 4,
+            "Weight_Unit_of_Measure__c": "ounce (oz)",
+            "Weight__c": 1.6,
+            "Weight_in_Pounds__c": 0.1,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef99"
+            },
+            "Name": "Baby Accessories",
+            "Description__c": "Item from 2017 and previous. For reporting only",
+            "Family__c": "Clothing",
+            "Value__c": 25.24,
+            "Weight_Unit_of_Measure__c": "ounce (oz)",
+            "Weight__c": 0.1,
+            "Weight_in_Pounds__c": 0.01,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef100"
+            },
+            "Name": "Gift Bags from Gearapalooza",
+            "Description__c": "From 2017 and before",
+            "Family__c": "None",
+            "Value__c": 200,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 1,
+            "Weight_in_Pounds__c": 1,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef101"
+            },
+            "Name": "Bottle Racks/Sanitizers (new)",
+            "Description__c": "From 2017 Inventory Log",
+            "Family__c": "Feeding",
+            "Value__c": 35,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 2.5,
+            "Weight_in_Pounds__c": 2.5,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef102"
+            },
+            "Name": "Socks from Hope Tank",
+            "Description__c": "From 2017 and previous",
+            "Family__c": "Clothing",
+            "Value__c": 14.99,
+            "Weight_Unit_of_Measure__c": "ounce (oz)",
+            "Weight__c": 1,
+            "Weight_in_Pounds__c": 0.06,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef103"
+            },
+            "Name": "Joovy Boob Baby Bottle Gift Set",
+            "Description__c": "2017 Inventory",
+            "Family__c": "Feeding",
+            "Value__c": 89.99,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 5,
+            "Weight_in_Pounds__c": 5,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef104"
+            },
+            "Name": "Expired Car Seat and Base",
+            "Family__c": "Gear",
+            "Value__c": 0,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 27,
+            "Weight_in_Pounds__c": 27,
+            "Available_To_Order__c": false,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef105"
+            },
+            "Name": "Shopping Cart Cover",
+            "Family__c": "Gear",
+            "Value__c": 10,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 1,
+            "Weight_in_Pounds__c": 1,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Product__c",
+                "referenceId": "Product__cRef106"
+            },
+            "Name": "Car Window Shade",
+            "Family__c": "Health & Safety",
+            "Value__c": 5,
+            "Weight_Unit_of_Measure__c": "pound (lb)",
+            "Weight__c": 1,
+            "Weight_in_Pounds__c": 1,
+            "Available_To_Order__c": true,
+            "Item_Bundle__c": 1
+        }
+    ]
+}

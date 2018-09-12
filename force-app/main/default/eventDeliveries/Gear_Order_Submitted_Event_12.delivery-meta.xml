@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EventDelivery xmlns="http://soap.sforce.com/2006/04/metadata">
+    <eventParameters>
+        <parameterName>FlowVersionName</parameterName>
+        <parameterValue>Gear_Order_Submitted_Event-12</parameterValue>
+    </eventParameters>
+    <eventSubscription>Gear_Order_Submitted_Event_12</eventSubscription>
+    <referenceData>Gear_Order_Submitted_Event_12</referenceData>
+    <type>StartFlow</type>
+</EventDelivery>

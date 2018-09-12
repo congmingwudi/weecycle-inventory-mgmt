@@ -1,0 +1,18 @@
+<apex:page >
+    
+    <p>
+        <c:DateTimeFormat dateTime_value="{!now()}" dateTime_format="EEE MMM d, yyyy hh:mm:ss a z" dateTime_zone="MDT"/>
+    </p> 
+    <p>
+        <c:DateTimeFormat dateTime_value="{!now()}" dateTime_format="EEE MMM d, yyyy hh:mm a z" dateTime_zone="MDT"/>
+    </p>
+    <p>
+        <c:DateTimeFormat dateTime_value="{!now()}" dateTime_format="EEE MMM d, yyyy hh:mm a z" dateTime_zone="PDT"/>
+    </p>
+     
+    <p>        
+        (used in email template) 
+        <c:DateTimeFormat dateTime_value="{!now()}" dateTime_format="EEE MMM d, yyyy 'at' hh:mm a z" dateTime_zone="MDT"/>
+    </p>
+         
+</apex:page>

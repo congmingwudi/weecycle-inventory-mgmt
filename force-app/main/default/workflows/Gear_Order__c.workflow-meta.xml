@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>WeeCycle_Gear_Order_Confirmed</fullName>
+        <description>WeeCycle - Gear Order Confirmed</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Order_Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>ryan.cox@salesforce.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Inventory_Mgmt_Email_Templates/Gear_Order_Confirmed</template>
+    </alerts>
+    <alerts>
+        <fullName>WeeCycle_Gear_Order_Scheduled</fullName>
+        <description>WeeCycle - Gear Order Scheduled</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Order_Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>ryan.cox@salesforce.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Inventory_Mgmt_Email_Templates/Gear_Order_Submitted</template>
+    </alerts>
+    <alerts>
+        <fullName>WeeCycle_Gear_Order_Scheduled_WeeCycle_only</fullName>
+        <description>WeeCycle - Gear Order Scheduled (WeeCycle only)</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>test-nzoup9mhgtgp@example.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>ryan.cox@salesforce.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Inventory_Mgmt_Email_Templates/Gear_Order_Scheduled_WeeCycle</template>
+    </alerts>
+    <alerts>
+        <fullName>WeeCycle_Gear_Order_Submitted</fullName>
+        <description>WeeCycle - Gear Order Submitted</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Order_Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>ryan.cox@salesforce.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Inventory_Mgmt_Email_Templates/Gear_Order_Submitted</template>
+    </alerts>
+</Workflow>

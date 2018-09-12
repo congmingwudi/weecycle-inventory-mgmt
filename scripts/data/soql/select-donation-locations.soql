@@ -1,0 +1,1 @@
+Select Name, City__c, Donation_Location_Details__c, Geolocation__Latitude__s, Geolocation__Longitude__s, State__c, Street_Address__c, Zip_Code__c FROM Donation_Location__c

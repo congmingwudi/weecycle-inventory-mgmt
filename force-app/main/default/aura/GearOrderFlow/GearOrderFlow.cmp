@@ -1,0 +1,20 @@
+<aura:component >
+	<aura:handler name="init" action="{!c.init}" value="{!this}"/> 
+
+	<div class="c-container">
+        <lightning:layout multipleRows="false">
+            
+            <lightning:layoutItem flexibility="auto" padding="around-small" class="custom-box">
+                <lightning:card title="">
+                	<lightning:flow aura:id="NewGearOrder" />
+                </lightning:card>
+            </lightning:layoutItem>
+            
+            <lightning:layoutItem flexibility="auto" padding="around-small" class="custom-box">
+                <c:ProductList />
+            </lightning:layoutItem>
+
+        </lightning:layout>
+    </div>
+    
+</aura:component>

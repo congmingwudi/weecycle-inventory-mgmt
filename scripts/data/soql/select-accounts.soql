@@ -1,0 +1,1 @@
+Select Name, Type, BillingStreet, BillingCity, BillingState, BillingPostalCode, BillingCountry, ShippingStreet, ShippingCity, ShippingState, ShippingPostalCode, ShippingCountry, Phone, Fax, AccountNumber, Website, Description, Families_Receiving_Support__c, Tax_ID__c, Areas_Served__c FROM Account

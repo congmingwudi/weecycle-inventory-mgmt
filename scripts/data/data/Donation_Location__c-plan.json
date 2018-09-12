@@ -1,0 +1,10 @@
+[
+    {
+        "sobject": "Donation_Location__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Donation_Location__cs.json"
+        ]
+    }
+]

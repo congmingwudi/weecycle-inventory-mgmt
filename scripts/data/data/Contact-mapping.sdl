@@ -1,0 +1,17 @@
+#Mapping values
+#Tue Sep 11 10:00:59 MDT 2018
+MAILINGCITY=MailingCity
+PHONE=Phone
+MAILINGPOSTALCODE=MailingPostalCode
+EMAIL=Email
+MAILINGLONGITUDE=MailingLongitude
+MOBILEPHONE=MobilePhone
+TITLE=Title
+DESCRIPTION=Description
+MAILINGCOUNTRY=MailingCountry
+MAILINGLATITUDE=MailingLatitude
+LASTNAME=LastName
+SALUTATION=Salutation
+FIRSTNAME=FirstName
+MAILINGSTREET=MailingStreet
+MAILINGSTATE=MailingState

@@ -1,0 +1,93 @@
+<aura:component implements="force:lightningQuickActionWithoutHeader" access="global" controller="GearOrderController">
+    
+    <!-- input parameters -->
+    <aura:attribute name="recordId" type="String" access="global" default=""/> <!-- this is the order ID, but must be named 'recordId' to be used as a QuickAction or in a Flow -->
+    <aura:attribute name="orderName" type="String" access="global" default=""/> 
+    
+    <!-- private attributes -->
+    <aura:attribute name="order" type="Gear_Order__c"/>
+    <aura:attribute name="raceEthnicityOptionList" type="List" default="[]"/>
+    <aura:attribute name="total_PercentFamiliesServed" type="Integer" default="0"/>
+    <aura:attribute name="errorMessage" type="String" default=""/>
+    <aura:attribute name="demographicsCreated" type="Boolean" default="false"/>
+       
+    <!-- handlers -->
+    <aura:handler name="init" action="{!c.init}" value="{!this}"/> 
+    
+    <!-- table attributes -->
+    <aura:attribute name="demographicsTableData" type="Object"/>
+    <aura:attribute name="tableColumns" type="List"/>
+    <aura:attribute name="isLoading" type="Boolean" default="false"/>
+    <aura:attribute name="sortedBy" type="String"/>
+    <aura:attribute name="sortedDirection" type="String"/>
+    <aura:attribute name="defaultSortDirection" type="String"/>
+    <aura:attribute name="tableErrors" type="Object"/>
+    
+    <!-- CARD -->
+    <lightning:card>
+        <aura:set attribute="title">
+            <h1 class="slds-align_absolute-center">ENTER BULK DEMOGRAPHICS</h1>
+        </aura:set>
+        <aura:set attribute="footer">
+            <aura:if isTrue="{!v.demographicsCreated == false}"> 
+            	<button class="slds-button slds-button--neutral" onclick="{!c.closeModel}">Cancel</button>
+				<button class="slds-button slds-button--brand" onclick="{!c.createDemographics}">Create Demographics</button>
+            </aura:if>
+            <aura:if isTrue="{!v.demographicsCreated == true}">        
+                <ui:outputText value="Demographics created" class="successMessage"/>
+                <button class="slds-button slds-button--brand" onclick="{!c.closeModel}">Close</button>
+            </aura:if>
+        </aura:set>
+                    
+    <lightning:layout horizontalAlign="stretch">
+        <!-- # families served -->
+        <lightning:layoutItem flexibility="auto" padding="around-small">
+            <lightning:input aura:id="Num_Families_Served" name="Num_Families_Served" label="# Families Served" type="number" value="{!v.order.Num_Families_Served__c}" onblur="{! c.handleNumFamiliesServedChanged }" />
+        </lightning:layoutItem>
+        
+        <!-- total % -->
+        <lightning:layoutItem flexibility="auto" padding="around-small">
+            <lightning:input aura:id="Total_PercentFamiliesServed" name="Total_PercentFamiliesServed" label="Total % Families Served" type="percent" value="{!v.total_PercentFamiliesServed}" disabled="true" />
+        </lightning:layoutItem>
+     </lightning:layout>
+    
+    <aura:if isTrue="{!v.errorMessage != ''}">
+        <lightning:layout horizontalAlign="space">
+            <lightning:layoutItem flexibility="auto" padding="around-small">
+                <ui:outputText value="{!v.errorMessage}" class="errorMessage"/>
+            </lightning:layoutItem>
+        </lightning:layout>
+    </aura:if>
+    
+    <!-- DEMOGRAPHICS TABLE -->     
+    <lightning:layout multipleRows="true">
+        <lightning:layoutItem padding="around-small" size="12">       
+
+                <!-- the container element determine the height of the datatable -->
+                <div style="height: 325px" class="slds-scrollable">
+                    <lightning:datatable aura:id="demographicsTable"
+                                         data="{! v.demographicsTableData }"
+                                         columns="{! v.tableColumns }"
+                                         keyField="RaceEthnicity"
+                                         hideCheckboxColumn="true"
+                                         showRowNumberColumn="false"
+                                         sortedBy="{! v.sortedBy }"
+                                         sortedDirection="{! v.sortedDirection }"
+                                         defaultSortDirection="{! v.defaultSortDirection }"
+                                         onsort="{! c.updateColumnSorting }"
+                                         onsave="{! c.handleSave }"
+                                         errors="{!v.errors}"
+                                         class="slds-p-around_medium" />                                         
+                </div>
+                <aura:if isTrue="{! v.isLoading }">
+                    <lightning:spinner alternativeText="Loading"/>
+                </aura:if>
+            
+        </lightning:layoutItem>        
+    </lightning:layout>
+    <!-- / DEMOGRAPHICS TABLE --> 
+    
+    </lightning:card>
+    <!-- / CARD -->
+    
+</aura:component>

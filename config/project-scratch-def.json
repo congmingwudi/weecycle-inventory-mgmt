@@ -1,0 +1,7 @@
+{
+    "orgName": "WeeCycle",
+    "edition": "Developer",
+    "orgPreferences" : {
+        "enabled": ["S1DesktopEnabled"]
+    }
+}
